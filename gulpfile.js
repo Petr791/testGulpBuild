@@ -1,16 +1,3 @@
-/* function defaultTask(cb) {
-    // place code for your default task here
-    cb();
-}
-
-exports.default = defaultTask */
-
-// import gulp from 'gulp';
-// import less from 'less';
-//import del from 'del';
-
-// import { deleteSync } from 'del';
-
 const gulp = require('gulp');
 const less = require('gulp-less');
 const rename = require('gulp-rename');
@@ -54,17 +41,6 @@ function styles() {
         .pipe(gulp.dest(paths.styles.dest))
 }
 
-/* function styles() {
-    return gulp.src(paths.styles.src)
-        .pipe(less())
-        .pipe(cleanCSS())
-        // pass in options to the stream
-        .pipe(rename({
-            basename: 'main',
-            suffix: '.min'
-        }))
-        .pipe(gulp.dest(paths.styles.dest));
-} */
 
 
 function scripts() {
