@@ -16,7 +16,7 @@
 
 ## Ссылки
 
-[Сборка проекта на Gulp 4](https://github.com/morphIsmail/gulp_build_3)  
+[Сборка проекта на Gulp 4](https://github.com)  
 [Документация Gulp на русском языке](https://webdesign-master.ru/blog/docs/gulp-documentation.html)
 
 ## Установленные NPM пакеты
